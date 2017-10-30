@@ -1,0 +1,128 @@
+<!doctype html>
+
+<html lang="en-us">
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Portfolio: Made with Bootstrap</title>
+
+
+	<!-- Bootstrap 3.3 CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Bootstrap JavaScript, requried for a collapsible nav -->
+	<!-- Had to use the links from the v4 documentation, hamburger menu nonfuctional with 3.3 links -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+	<style>
+				/* Sticky footer styles
+		-------------------------------------------------- */
+		html {
+		  position: relative;
+		  min-height: 100%;
+		}
+		body {
+		  /* Margin bottom by footer height */
+		  margin-bottom: 60px;
+		}
+		.footer {
+		  position: absolute;
+		  bottom: 0;
+		  width: 100%;
+		  /* Set the fixed height of the footer here */
+		  height: 60px;
+		  background-color: #f5f5f5;
+		}
+
+
+		/* Custom page CSS
+		-------------------------------------------------- */
+		/* Not required for template or sticky footer method. */
+
+		.container {
+		  width: auto;
+		  max-width: 680px;
+		  padding: 0 15px;
+		}
+		.container .text-muted {
+		  margin: 20px 0;
+		}
+	</style>
+
+</head>
+
+<body>
+<!--
+	<!-- Header stuff -->
+
+
+
+
+	<nav class="navbar navbar-default">
+    	<div class="container">
+     		<div class="navbar-header">
+        		<a class="navbar-brand" href="#">David Farrenkopf</a>
+         		 	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		                <span class="sr-only">Toggle navigation</span>
+		                <span class="icon-bar"></span>
+		                <span class="icon-bar"></span>
+		                <span class="icon-bar"></span>
+            		</button>
+      		</div>
+      		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        		<ul class="nav navbar-nav navbar-right">
+          			<li><a href="#">About</a></li>
+          			<li><a href="#">Portfolio</a></li>
+          			<li><a href="#">Contact</a></li>
+        		</ul>
+      		</div>
+    	</div>
+  	</nav>
+
+	<!-- Main body -->
+	<div class="container-fluid"> <!-- Check if it should be container fluid later? -->
+		<div class="row">
+			<!-- Main section -->
+			<div class="col-md-8">
+				<div class="panel panel-default">
+  					<div class="panel-heading">
+    					<h3 class="panel-title">About Me</h3>
+  					</div>
+  					<div class="panel-body">
+  					<img src="assets/images/cat.jpg" class="pull-left img-responsive img-thumbnail" alt="Responsive image">
+  					
+    				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci  ation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla  acilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
+
+    				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+  					</div>
+				</div>
+			</div>
+			<!-- Sidebar -->
+			<div class="col-md-4">
+				<div class="panel panel-default">
+  					<div class="panel-heading">
+    					<h3 class="panel-title">Connect With Me</h3>
+  					</div>
+  					<div class="panel-body">
+  						<a href="#"><img src="assets/images/github-128.png" style="width:64px" alt="GitHub"></a>
+  						<a href="#"><img src="assets/images/linkedin-128.png"  style="width:64px"  alt="LinkedIn"/></a>
+				    	<a href="#"><img src="assets/images/stackoverflow-128.png"  style="width:64px"  alt="Stack Overflow"/></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer class="footer sticky-footer-navbar">
+      <div class="container">
+		<p class="text-muted">Copyright © 2016 Your Name</p>
+      </div>
+    </footer>
+
+</body>
+
+</html>

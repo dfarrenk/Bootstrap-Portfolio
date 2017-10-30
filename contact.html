@@ -1,0 +1,139 @@
+<!doctype html>
+
+<html lang="en-us">
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Portfolio: Made with Bootstrap</title>
+
+
+	<!-- Bootstrap 3.3 CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Bootstrap JavaScript, requried for a collapsible nav -->
+	<!-- Had to use the links from the v4 documentation, hamburger menu nonfuctional with 3.3 links -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+	<style>
+				/* Sticky footer styles
+		-------------------------------------------------- */
+		html {
+		  position: relative;
+		  min-height: 100%;
+		}
+		body {
+		  /* Margin bottom by footer height */
+		  margin-bottom: 60px;
+		}
+		.footer {
+		  position: absolute;
+		  bottom: 0;
+		  width: 100%;
+		  /* Set the fixed height of the footer here */
+		  height: 60px;
+		  background-color: #f5f5f5;
+		}
+
+
+		/* Custom page CSS
+		-------------------------------------------------- */
+		/* Not required for template or sticky footer method. */
+
+		.container {
+		  width: auto;
+		  max-width: 680px;
+		  padding: 0 15px;
+		}
+		.container .text-muted {
+		  margin: 20px 0;
+		}
+	</style>
+
+</head>
+
+<body>
+<!--
+	<!-- Header stuff -->
+
+
+
+
+	<nav class="navbar navbar-default">
+    	<div class="container">
+     		<div class="navbar-header">
+        		<a class="navbar-brand" href="#">David Farrenkopf</a>
+         		 	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		                <span class="sr-only">Toggle navigation</span>
+		                <span class="icon-bar"></span>
+		                <span class="icon-bar"></span>
+		                <span class="icon-bar"></span>
+            		</button>
+      		</div>
+      		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        		<ul class="nav navbar-nav navbar-right">
+          			<li><a href="#">About</a></li>
+          			<li><a href="#">Portfolio</a></li>
+          			<li><a href="#">Contact</a></li>
+        		</ul>
+      		</div>
+    	</div>
+  	</nav>
+
+	<!-- Main body -->
+	<div class="container-fluid"> <!-- Check if it should be container fluid later? -->
+		<div class="row">
+			<!-- Main section -->
+			<div class="col-md-8">
+				<div class="panel panel-default">
+  					<div class="panel-heading">
+    					<h3 class="panel-title">Contact</h3>
+  					</div>
+  					<div class="panel-body">
+						<form>
+							<div class="form-group">
+					    		<label for="exampleInputEmail1">Email address</label>
+					    		<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+					  		</div>
+					  		<div class="form-group">
+					    		<label for="exampleInputEmail1">Email</label>
+					    		<input type="email" class="form-control" id="exampleInputEmail1" placeholder="example@gmail.com">
+					  		</div>
+					 		<div class="form-group">
+							    <label for="exampleTextarea">Message</label>
+							    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+  							</div>
+					 		
+					 		<input class="btn btn-default" type="submit" value="Submit">
+					  	</form>
+  					</div>
+				</div>
+			</div>
+			<!-- Sidebar -->
+			<div class="col-md-4">
+				<div class="panel panel-default">
+  					<div class="panel-heading">
+    					<h3 class="panel-title">Connect With Me</h3>
+  					</div>
+  					<div class="panel-body">
+  						<a href="#"><img src="assets/images/github-128.png" style="width:64px" alt="GitHub"></a>
+  						<a href="#"><img src="assets/images/linkedin-128.png"  style="width:64px"  alt="LinkedIn"/></a>
+				    	<a href="#"><img src="assets/images/stackoverflow-128.png"  style="width:64px"  alt="Stack Overflow"/></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer class="footer sticky-footer-navbar">
+      <div class="container">
+		<p class="text-muted">Copyright © 2016 Your Name</p>
+	  </div>
+    </footer>
+
+</body>
+
+</html>
